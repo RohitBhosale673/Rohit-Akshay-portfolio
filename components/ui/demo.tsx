@@ -4,8 +4,6 @@ import { WorksWheel, type WorksWheelItem } from "@/components/ui/works-wheel";
 
 // Curated high-resolution Unsplash stock images for reliable presentation
 const UNSPLASH_IMAGES = {
-  hospitality: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
-  crm: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
   qa: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
   creative: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
   finance: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
@@ -18,16 +16,6 @@ const UNSPLASH_IMAGES = {
 };
 
 const WORKS: WorksWheelItem[] = [
-  {
-    title: "Hotel Jagdamba",
-    image: UNSPLASH_IMAGES.hospitality,
-    href: "/projects/jagdamba-hotel-website",
-  },
-  {
-    title: "Mini CRM Application",
-    image: UNSPLASH_IMAGES.crm,
-    href: "/projects/mini-crm-mobile-application",
-  },
   {
     title: "QA Testing Portfolio",
     image: UNSPLASH_IMAGES.qa,

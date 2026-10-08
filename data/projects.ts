@@ -24,7 +24,6 @@ export const filterTabs = [
   { id: 'WEB APPS', label: 'WEB APPS' },
   { id: 'BUSINESS', label: 'BUSINESS' },
   { id: 'E-COMMERCE', label: 'E-COMMERCE' },
-  { id: 'CRM', label: 'CRM' },
   { id: 'PORTFOLIO', label: 'PORTFOLIO' },
   { id: 'QA / TESTING', label: 'QA / TESTING' },
   { id: 'WORKFLOW', label: 'WORKFLOW' },
@@ -33,64 +32,6 @@ export const filterTabs = [
 export const projectsData: Project[] = [
   {
     id: '01',
-    slug: 'jagdamba-hotel-website',
-    title: 'Jagdamba Hotel Website',
-    category: 'Business / Hotel Website',
-    filterCategories: ['ALL', 'WEBSITES', 'BUSINESS'],
-    description:
-      'A modern hotel/business website created to present the hotel, its services, information and digital presence in a professional way.',
-    longDescription:
-      'Built as a complete commercial digital presence for Hotel Jagdamba, this project delivers an engaging, high-performance web experience. It showcases dining specials, luxury accommodations, ambient facility imagery, and direct customer inquiry channels. Engineered with responsive-first typography, fast asset loading, and search visibility best practices.',
-    thumbnail: '/projects/jagdamba-hotel.svg',
-    gallery: [
-      '/projects/jagdamba-hotel.svg',
-      '/projects/jagdamba-hotel-2.svg',
-    ],
-    technologies: ['React', 'Next.js', 'Tailwind CSS', 'Responsive UI', 'SEO Architecture'],
-    features: [
-      'Interactive room and accommodation overview with visual showcases',
-      'Dining and culinary services presentation with curated menu highlights',
-      'Direct contact, location integration, and inquiry facilitation',
-      'Fast mobile-first rendering with low latency image delivery',
-      'Clean layout hierarchy focused on high conversion and brand credibility'
-    ],
-    role: 'Full Stack Web Engineering & UI/UX Design',
-    liveUrl: 'https://jagdamba-hotel-website.vercel.app/',
-    featured: true,
-    status: 'Live in Production',
-    year: '2024',
-  },
-  {
-    id: '02',
-    slug: 'mini-crm-mobile-application',
-    title: 'Mini CRM Mobile Application',
-    category: 'CRM / Application',
-    filterCategories: ['ALL', 'WEB APPS', 'CRM', 'BUSINESS'],
-    description:
-      'A compact CRM application concept focused on managing customer/business information through a structured application interface.',
-    longDescription:
-      'A streamlined CRM architecture designed to eliminate clutter in client relationship tracking. Built to give sales and client managers instant access to company records, contact notes, and deal pipeline status. Emphasizes clean structured data views, rapid interaction speeds, and modular data management components.',
-    thumbnail: '/projects/mini-crm.svg',
-    gallery: [
-      '/projects/mini-crm.svg',
-      '/projects/mini-crm-2.svg',
-    ],
-    technologies: ['React Native / Mobile UI', 'JavaScript', 'State Management', 'REST API Architecture'],
-    features: [
-      'Structured contact and client profile records management',
-      'Lead pipeline tracking with status classification',
-      'Quick interaction history logging and scheduled reminders',
-      'Optimized mobile navigation flow with intuitive card layouts',
-      'Scalable data schemas ready for third-party backend integration'
-    ],
-    role: 'Mobile Architecture & Frontend Engineering',
-    githubUrl: 'https://github.com/RohitBhosale673/-Mini-CRM-Mobile-Application',
-    featured: true,
-    status: 'Open Source / Source Available',
-    year: '2024',
-  },
-  {
-    id: '03',
     slug: 'qa-projects-portfolio',
     title: 'QA Projects Portfolio',
     category: 'QA / Testing Portfolio',
@@ -119,7 +60,7 @@ export const projectsData: Project[] = [
     year: '2024',
   },
   {
-    id: '04',
+    id: '02',
     slug: 'royal-portfolio',
     title: 'Royal Portfolio',
     category: 'Portfolio / Creative Website',
@@ -148,7 +89,7 @@ export const projectsData: Project[] = [
     year: '2024',
   },
   {
-    id: '05',
+    id: '03',
     slug: 'home-expense-tracker',
     title: 'Home Expense Tracker',
     category: 'Web Application / Finance Utility',
@@ -177,7 +118,7 @@ export const projectsData: Project[] = [
     year: '2024',
   },
   {
-    id: '06',
+    id: '04',
     slug: 'cart-website',
     title: 'Cart Website',
     category: 'E-Commerce / Shopping',
@@ -206,7 +147,7 @@ export const projectsData: Project[] = [
     year: '2024',
   },
   {
-    id: '07',
+    id: '05',
     slug: 'bhavani-shankar-math',
     title: 'Bhavani Shankar Math',
     category: 'Organization / Website',
@@ -235,7 +176,7 @@ export const projectsData: Project[] = [
     year: '2024',
   },
   {
-    id: '08',
+    id: '06',
     slug: 'portfolio-lrek',
     title: 'Portfolio LREK',
     category: 'Portfolio Website',
@@ -264,7 +205,7 @@ export const projectsData: Project[] = [
     year: '2024',
   },
   {
-    id: '09',
+    id: '07',
     slug: 'fertiliser',
     title: 'Fertiliser',
     category: 'Agriculture / Business Website',
@@ -293,7 +234,7 @@ export const projectsData: Project[] = [
     year: '2024',
   },
   {
-    id: '10',
+    id: '08',
     slug: 'darbar-seva-flow',
     title: 'Darbar Seva Flow',
     category: 'Management / Workflow Application',
@@ -322,7 +263,7 @@ export const projectsData: Project[] = [
     year: '2024',
   },
   {
-    id: '11',
+    id: '09',
     slug: 'rbas-estates-residences',
     title: 'RBAS — Estates & Residences',
     category: 'Real Estate / 3D Luxury Architectural Platform',
