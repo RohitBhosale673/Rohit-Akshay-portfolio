@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0F1218"/>
+        <stop offset="100%" stop-color="#08090C"/>
+      </linearGradient>
+      <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#3B82F6"/>
+        <stop offset="100%" stop-color="#6366F1"/>
+      </linearGradient>
+      <pattern id="dotPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
+      </pattern>
+    </defs>
+    
+    <!-- Outer window border and container -->
+    <rect width="1200" height="750" rx="16" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <rect width="1200" height="750" rx="16" fill="url(#dotPattern)"/>
+    
+    <!-- Browser Top Bar -->
+    <rect x="0" y="0" width="1200" height="56" rx="16" fill="#141822" fill-opacity="0.9"/>
+    <rect x="0" y="44" width="1200" height="12" fill="#141822"/>
+    <line x1="0" y1="56" x2="1200" y2="56" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Window controls -->
+    <circle cx="28" cy="28" r="6" fill="#EF4444" fill-opacity="0.8"/>
+    <circle cx="48" cy="28" r="6" fill="#F59E0B" fill-opacity="0.8"/>
+    <circle cx="68" cy="28" r="6" fill="#10B981" fill-opacity="0.8"/>
+    
+    <!-- URL Address pill -->
+    <rect x="180" y="14" width="840" height="28" rx="6" fill="#0B0D12" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle cx="202" cy="28" r="4" fill="#3B82F6"/>
+    <text x="218" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8" font-weight="500">https://github.com/RohitBhosale673/-Mini-CRM-Mobile-Application</text>
+    
+    <!-- Action icons placeholder -->
+    <rect x="1040" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1075" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1110" y="18" width="60" height="20" rx="4" fill="#3B82F6" fill-opacity="0.2"/>
+    <text x="1122" y="32" font-family="system-ui, sans-serif" font-size="10" fill="#3B82F6" font-weight="700">LIVE</text>
+    
+    <!-- Main Content Area -->
+    <g transform="translate(0, 56)">
+      
+  <rect width="1200" height="694" fill="#090B10"/>
+  <!-- CRM App Header -->
+  <g transform="translate(60, 40)">
+    <text x="0" y="32" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">Mini CRM Dashboard</text>
+    <text x="0" y="60" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Mobile-first client relationship &amp; pipeline management system</text>
+    <rect x="880" y="10" width="200" height="38" rx="8" fill="rgba(59,130,246,0.15)" stroke="rgba(59,130,246,0.3)"/>
+    <text x="906" y="34" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#60A5FA">🐙 SOURCE ON GITHUB</text>
+  </g>
+
+  <!-- Metric row -->
+  <g transform="translate(60, 130)">
+    <rect x="0" y="0" width="250" height="100" rx="10" fill="#121622" stroke="rgba(255,255,255,0.06)"/>
+    <text x="24" y="36" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">ACTIVE CLIENTS</text>
+    <text x="24" y="74" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">128</text>
+
+    <rect x="275" y="0" width="250" height="100" rx="10" fill="#121622" stroke="rgba(255,255,255,0.06)"/>
+    <text x="299" y="36" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">OPEN DEALS</text>
+    <text x="299" y="74" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#3B82F6">34</text>
+
+    <rect x="550" y="0" width="250" height="100" rx="10" fill="#121622" stroke="rgba(255,255,255,0.06)"/>
+    <text x="574" y="36" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">PIPELINE VALUE</text>
+    <text x="574" y="74" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#10B981">$48,200</text>
+
+    <rect x="825" y="0" width="255" height="100" rx="10" fill="#121622" stroke="rgba(255,255,255,0.06)"/>
+    <text x="849" y="36" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">WIN RATE</text>
+    <text x="849" y="74" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#A855F7">68.4%</text>
+  </g>
+
+  <!-- Pipeline Kanban Columns -->
+  <g transform="translate(60, 260)">
+    <!-- Column 1: Leads -->
+    <rect x="0" y="0" width="340" height="390" rx="12" fill="#10141E" stroke="rgba(255,255,255,0.05)"/>
+    <text x="20" y="34" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#94A3B8">PROSPECT LEADS (3)</text>
+    <rect x="16" y="55" width="308" height="90" rx="8" fill="#161C2C" stroke="rgba(255,255,255,0.08)"/>
+    <text x="32" y="85" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Acme Corp Logistics</text>
+    <text x="32" y="110" font-family="system-ui, sans-serif" font-size="12" fill="#60A5FA">Deal: $12,500 • High Priority</text>
+
+    <rect x="16" y="160" width="308" height="90" rx="8" fill="#161C2C" stroke="rgba(255,255,255,0.08)"/>
+    <text x="32" y="190" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Vertex Global Systems</text>
+    <text x="32" y="215" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Deal: $8,000 • In Review</text>
+
+    <!-- Column 2: In Discussion -->
+    <rect x="370" y="0" width="340" height="390" rx="12" fill="#10141E" stroke="rgba(255,255,255,0.05)"/>
+    <text x="390" y="34" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#60A5FA">IN DISCUSSION (2)</text>
+    <rect x="386" y="55" width="308" height="90" rx="8" fill="#161C2C" stroke="rgba(59,130,246,0.2)"/>
+    <text x="402" y="85" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Apex Engineering Lab</text>
+    <text x="402" y="110" font-family="system-ui, sans-serif" font-size="12" fill="#34D399">Contract sent • $18,000</text>
+
+    <!-- Column 3: Won / Closed -->
+    <rect x="740" y="0" width="340" height="390" rx="12" fill="#10141E" stroke="rgba(255,255,255,0.05)"/>
+    <text x="760" y="34" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#34D399">WON &amp; ONBOARDED (4)</text>
+    <rect x="756" y="55" width="308" height="90" rx="8" fill="#14231E" stroke="rgba(16,185,129,0.3)"/>
+    <text x="772" y="85" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Pulse Health Solutions</text>
+    <text x="772" y="110" font-family="system-ui, sans-serif" font-size="12" fill="#10B981">Completed • $9,700</text>
+  </g>
+
+    </g>
+  </svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0F1218"/>
+        <stop offset="100%" stop-color="#08090C"/>
+      </linearGradient>
+      <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#10B981"/>
+        <stop offset="100%" stop-color="#6366F1"/>
+      </linearGradient>
+      <pattern id="dotPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
+      </pattern>
+    </defs>
+    
+    <!-- Outer window border and container -->
+    <rect width="1200" height="750" rx="16" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <rect width="1200" height="750" rx="16" fill="url(#dotPattern)"/>
+    
+    <!-- Browser Top Bar -->
+    <rect x="0" y="0" width="1200" height="56" rx="16" fill="#141822" fill-opacity="0.9"/>
+    <rect x="0" y="44" width="1200" height="12" fill="#141822"/>
+    <line x1="0" y1="56" x2="1200" y2="56" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Window controls -->
+    <circle cx="28" cy="28" r="6" fill="#EF4444" fill-opacity="0.8"/>
+    <circle cx="48" cy="28" r="6" fill="#F59E0B" fill-opacity="0.8"/>
+    <circle cx="68" cy="28" r="6" fill="#10B981" fill-opacity="0.8"/>
+    
+    <!-- URL Address pill -->
+    <rect x="180" y="14" width="840" height="28" rx="6" fill="#0B0D12" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle cx="202" cy="28" r="4" fill="#10B981"/>
+    <text x="218" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8" font-weight="500">https://qa-portfolio-rohits-projects-84cb3046.vercel.app/</text>
+    
+    <!-- Action icons placeholder -->
+    <rect x="1040" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1075" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1110" y="18" width="60" height="20" rx="4" fill="#10B981" fill-opacity="0.2"/>
+    <text x="1122" y="32" font-family="system-ui, sans-serif" font-size="10" fill="#10B981" font-weight="700">LIVE</text>
+    
+    <!-- Main Content Area -->
+    <g transform="translate(0, 56)">
+      
+  <rect width="1200" height="694" fill="#0A0D14"/>
+  <!-- Header -->
+  <g transform="translate(60, 40)">
+    <rect x="0" y="0" width="130" height="26" rx="4" fill="rgba(16,185,129,0.15)"/>
+    <text x="14" y="18" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#10B981">TEST AUTOMATION &amp; QA</text>
+    <text x="0" y="70" font-family="system-ui, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">Software Quality Engineering Portfolio</text>
+    <text x="0" y="100" font-family="system-ui, sans-serif" font-size="15" fill="#94A3B8">Automated test frameworks, Selenium WebDriver, TestNG suites, and Postman API validation.</text>
+  </g>
+
+  <!-- Metric Badges -->
+  <g transform="translate(60, 160)">
+    <rect x="0" y="0" width="250" height="90" rx="10" fill="#121722" stroke="rgba(16,185,129,0.2)"/>
+    <text x="24" y="32" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">TEST SUITES PASSED</text>
+    <text x="24" y="68" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#10B981">100%</text>
+
+    <rect x="275" y="0" width="250" height="90" rx="10" fill="#121722" stroke="rgba(255,255,255,0.06)"/>
+    <text x="299" y="32" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">API ENDPOINTS VERIFIED</text>
+    <text x="299" y="68" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#38BDF8">48+ Endpoints</text>
+
+    <rect x="550" y="0" width="250" height="90" rx="10" fill="#121722" stroke="rgba(255,255,255,0.06)"/>
+    <text x="574" y="32" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">AUTOMATION TOOLING</text>
+    <text x="574" y="68" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#FBBF24">Selenium + TestNG</text>
+
+    <rect x="825" y="0" width="255" height="90" rx="10" fill="#121722" stroke="rgba(255,255,255,0.06)"/>
+    <text x="849" y="32" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">DEFECT TRACKING</text>
+    <text x="849" y="68" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#A78BFA">Jira Workflows</text>
+  </g>
+
+  <!-- Live Test Suite Terminal View -->
+  <g transform="translate(60, 280)">
+    <rect x="0" y="0" width="1080" height="370" rx="12" fill="#0C101A" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="0" y="0" width="1080" height="36" rx="12" fill="#141B2B"/>
+    <text x="24" y="24" font-family="monospace" font-size="12" fill="#94A3B8">terminal@test-runner: ~/automation-suite $ mvn test</text>
+    
+    <text x="24" y="70" font-family="monospace" font-size="13" fill="#38BDF8">[INFO] Running TestSuite: Regression &amp; Cross-Browser Matrix</text>
+    <text x="24" y="100" font-family="monospace" font-size="13" fill="#10B981">✔ [PASS] AuthenticationFlowTest: validLoginCredentials() - 412ms</text>
+    <text x="24" y="130" font-family="monospace" font-size="13" fill="#10B981">✔ [PASS] CartOperationsTest: addMultipleItemsAndValidateSubtotal() - 680ms</text>
+    <text x="24" y="160" font-family="monospace" font-size="13" fill="#10B981">✔ [PASS] CheckoutPipelineTest: paymentGatewayCallbackHandling() - 530ms</text>
+    <text x="24" y="190" font-family="monospace" font-size="13" fill="#10B981">✔ [PASS] RestApiEndpointsTest: verifyStatusCodeAndJsonPayload() - 210ms</text>
+    <text x="24" y="220" font-family="monospace" font-size="13" fill="#10B981">✔ [PASS] ResponsiveViewportTest: validateLayoutOnMobileBreakpoints() - 890ms</text>
+    <line x1="24" y1="250" x2="1056" y2="250" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <text x="24" y="285" font-family="monospace" font-size="14" font-weight="700" fill="#10B981">[SUCCESS] Total tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.82 s</text>
+    <text x="24" y="320" font-family="monospace" font-size="12" fill="#64748B">[INFO] BUILD SUCCESS - Quality gate verified for production staging.</text>
+  </g>
+
+    </g>
+  </svg>

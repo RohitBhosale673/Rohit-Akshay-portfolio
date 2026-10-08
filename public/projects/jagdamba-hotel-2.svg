@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0F1218"/>
+        <stop offset="100%" stop-color="#08090C"/>
+      </linearGradient>
+      <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#F59E0B"/>
+        <stop offset="100%" stop-color="#6366F1"/>
+      </linearGradient>
+      <pattern id="dotPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
+      </pattern>
+    </defs>
+    
+    <!-- Outer window border and container -->
+    <rect width="1200" height="750" rx="16" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <rect width="1200" height="750" rx="16" fill="url(#dotPattern)"/>
+    
+    <!-- Browser Top Bar -->
+    <rect x="0" y="0" width="1200" height="56" rx="16" fill="#141822" fill-opacity="0.9"/>
+    <rect x="0" y="44" width="1200" height="12" fill="#141822"/>
+    <line x1="0" y1="56" x2="1200" y2="56" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Window controls -->
+    <circle cx="28" cy="28" r="6" fill="#EF4444" fill-opacity="0.8"/>
+    <circle cx="48" cy="28" r="6" fill="#F59E0B" fill-opacity="0.8"/>
+    <circle cx="68" cy="28" r="6" fill="#10B981" fill-opacity="0.8"/>
+    
+    <!-- URL Address pill -->
+    <rect x="180" y="14" width="840" height="28" rx="6" fill="#0B0D12" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle cx="202" cy="28" r="4" fill="#F59E0B"/>
+    <text x="218" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8" font-weight="500">https://jagdamba-hotel-website.vercel.app/rooms</text>
+    
+    <!-- Action icons placeholder -->
+    <rect x="1040" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1075" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1110" y="18" width="60" height="20" rx="4" fill="#F59E0B" fill-opacity="0.2"/>
+    <text x="1122" y="32" font-family="system-ui, sans-serif" font-size="10" fill="#F59E0B" font-weight="700">LIVE</text>
+    
+    <!-- Main Content Area -->
+    <g transform="translate(0, 56)">
+      
+  <rect width="1200" height="694" fill="#0B0D13"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#FFFFFF">Accommodation &amp; Premium Suites</text>
+  <text x="60" y="105" font-family="system-ui, sans-serif" font-size="15" fill="#94A3B8">Clean, peaceful, and fully appointed living spaces for business and leisure travellers.</text>
+  <g transform="translate(60, 140)">
+    <rect x="0" y="0" width="520" height="490" rx="16" fill="#131722" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="0" y="0" width="520" height="260" rx="16" fill="#1E2538"/>
+    <text x="30" y="310" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Executive Master Suite</text>
+    <text x="30" y="345" font-family="system-ui, sans-serif" font-size="14" fill="#94A3B8">King-size luxury bed, high-speed WiFi, smart TV, climate control, and en-suite bath.</text>
+    <rect x="30" y="410" width="140" height="40" rx="6" fill="#F59E0B"/>
+    <text x="56" y="435" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0B0D13">RESERVE NOW</text>
+
+    <rect x="560" y="0" width="520" height="490" rx="16" fill="#131722" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="560" y="0" width="520" height="260" rx="16" fill="#1A2130"/>
+    <text x="590" y="310" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Family Deluxe Stay</text>
+    <text x="590" y="345" font-family="system-ui, sans-serif" font-size="14" fill="#94A3B8">Spacious dual-bed setup ideal for families, attached balcony view and dining service.</text>
+    <rect x="590" y="410" width="140" height="40" rx="6" fill="#F59E0B"/>
+    <text x="616" y="435" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0B0D13">RESERVE NOW</text>
+  </g>
+
+    </g>
+  </svg>

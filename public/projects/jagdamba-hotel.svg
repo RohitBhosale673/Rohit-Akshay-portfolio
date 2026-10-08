@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0F1218"/>
+        <stop offset="100%" stop-color="#08090C"/>
+      </linearGradient>
+      <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#F59E0B"/>
+        <stop offset="100%" stop-color="#6366F1"/>
+      </linearGradient>
+      <pattern id="dotPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
+      </pattern>
+    </defs>
+    
+    <!-- Outer window border and container -->
+    <rect width="1200" height="750" rx="16" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <rect width="1200" height="750" rx="16" fill="url(#dotPattern)"/>
+    
+    <!-- Browser Top Bar -->
+    <rect x="0" y="0" width="1200" height="56" rx="16" fill="#141822" fill-opacity="0.9"/>
+    <rect x="0" y="44" width="1200" height="12" fill="#141822"/>
+    <line x1="0" y1="56" x2="1200" y2="56" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Window controls -->
+    <circle cx="28" cy="28" r="6" fill="#EF4444" fill-opacity="0.8"/>
+    <circle cx="48" cy="28" r="6" fill="#F59E0B" fill-opacity="0.8"/>
+    <circle cx="68" cy="28" r="6" fill="#10B981" fill-opacity="0.8"/>
+    
+    <!-- URL Address pill -->
+    <rect x="180" y="14" width="840" height="28" rx="6" fill="#0B0D12" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle cx="202" cy="28" r="4" fill="#F59E0B"/>
+    <text x="218" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8" font-weight="500">https://jagdamba-hotel-website.vercel.app</text>
+    
+    <!-- Action icons placeholder -->
+    <rect x="1040" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1075" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1110" y="18" width="60" height="20" rx="4" fill="#F59E0B" fill-opacity="0.2"/>
+    <text x="1122" y="32" font-family="system-ui, sans-serif" font-size="10" fill="#F59E0B" font-weight="700">LIVE</text>
+    
+    <!-- Main Content Area -->
+    <g transform="translate(0, 56)">
+      
+  <rect width="1200" height="694" fill="#0B0D13"/>
+  <!-- Nav -->
+  <rect x="60" y="24" width="1080" height="60" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+  <text x="90" y="60" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#F8FAFC">HOTEL JAGDAMBA</text>
+  <text x="650" y="58" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">ACCOMMODATION</text>
+  <text x="820" y="58" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">DINING &amp; EVENTS</text>
+  <rect x="980" y="36" width="130" height="36" rx="6" fill="#D97706"/>
+  <text x="1008" y="59" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">BOOK A ROOM</text>
+  
+  <!-- Hero Section -->
+  <rect x="60" y="110" width="1080" height="340" rx="16" fill="#151A24" stroke="rgba(217,119,6,0.2)"/>
+  <circle cx="950" cy="270" r="180" fill="#D97706" fill-opacity="0.08"/>
+  <rect x="110" y="150" width="180" height="26" rx="4" fill="rgba(217,119,6,0.15)"/>
+  <text x="122" y="167" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#F59E0B">LUXURY &amp; HOSPITALITY</text>
+  <text x="110" y="230" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#FFFFFF">Exquisite Comfort &amp;</text>
+  <text x="110" y="275" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#FCD34D">Authentic Dining</text>
+  <text x="110" y="320" font-family="system-ui, sans-serif" font-size="15" fill="#94A3B8">Experience authentic cuisine, premier stay accommodations and banquet hosting.</text>
+  
+  <rect x="110" y="355" width="160" height="44" rx="8" fill="#F59E0B"/>
+  <text x="138" y="382" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#0B0D13">EXPLORE SUITES</text>
+  <rect x="290" y="355" width="160" height="44" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="328" y="382" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">VIEW MENU</text>
+
+  <!-- 3 Feature Cards -->
+  <g transform="translate(60, 480)">
+    <rect x="0" y="0" width="340" height="180" rx="12" fill="#121620" stroke="rgba(255,255,255,0.06)"/>
+    <text x="24" y="44" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Deluxe Suites</text>
+    <text x="24" y="74" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">Fully air-conditioned luxury rooms with premium amenities and 24/7 service.</text>
+    <text x="24" y="145" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#F59E0B">View Details →</text>
+
+    <rect x="370" y="0" width="340" height="180" rx="12" fill="#121620" stroke="rgba(255,255,255,0.06)"/>
+    <text x="394" y="44" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Specialty Restaurant</text>
+    <text x="394" y="74" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">Traditional Maharashtrian dishes, tandoor delicacies, and family dining hall.</text>
+    <text x="394" y="145" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#F59E0B">Menu &amp; Specials →</text>
+
+    <rect x="740" y="0" width="340" height="180" rx="12" fill="#121620" stroke="rgba(255,255,255,0.06)"/>
+    <text x="764" y="44" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Banquet &amp; Events</text>
+    <text x="764" y="74" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">Spacious celebration halls for family gatherings, weddings and corporate meetings.</text>
+    <text x="764" y="145" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#F59E0B">Inquire Venue →</text>
+  </g>
+
+    </g>
+  </svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0F1218"/>
+        <stop offset="100%" stop-color="#08090C"/>
+      </linearGradient>
+      <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#10B981"/>
+        <stop offset="100%" stop-color="#6366F1"/>
+      </linearGradient>
+      <pattern id="dotPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
+      </pattern>
+    </defs>
+    
+    <!-- Outer window border and container -->
+    <rect width="1200" height="750" rx="16" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <rect width="1200" height="750" rx="16" fill="url(#dotPattern)"/>
+    
+    <!-- Browser Top Bar -->
+    <rect x="0" y="0" width="1200" height="56" rx="16" fill="#141822" fill-opacity="0.9"/>
+    <rect x="0" y="44" width="1200" height="12" fill="#141822"/>
+    <line x1="0" y1="56" x2="1200" y2="56" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Window controls -->
+    <circle cx="28" cy="28" r="6" fill="#EF4444" fill-opacity="0.8"/>
+    <circle cx="48" cy="28" r="6" fill="#F59E0B" fill-opacity="0.8"/>
+    <circle cx="68" cy="28" r="6" fill="#10B981" fill-opacity="0.8"/>
+    
+    <!-- URL Address pill -->
+    <rect x="180" y="14" width="840" height="28" rx="6" fill="#0B0D12" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle cx="202" cy="28" r="4" fill="#10B981"/>
+    <text x="218" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8" font-weight="500">https://qa-portfolio-rohits-projects-84cb3046.vercel.app/api-tests</text>
+    
+    <!-- Action icons placeholder -->
+    <rect x="1040" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1075" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1110" y="18" width="60" height="20" rx="4" fill="#10B981" fill-opacity="0.2"/>
+    <text x="1122" y="32" font-family="system-ui, sans-serif" font-size="10" fill="#10B981" font-weight="700">LIVE</text>
+    
+    <!-- Main Content Area -->
+    <g transform="translate(0, 56)">
+      
+  <rect width="1200" height="694" fill="#0A0D14"/>
+  <text x="60" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Postman API Collections &amp; Validation Matrix</text>
+  <g transform="translate(60, 100)">
+    <rect x="0" y="0" width="1080" height="100" rx="10" fill="#121724" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="24" y="35" width="70" height="30" rx="4" fill="#10B981"/>
+    <text x="44" y="55" font-family="monospace" font-size="13" font-weight="700" fill="#0A0D14">GET</text>
+    <text x="110" y="55" font-family="monospace" font-size="14" fill="#FFFFFF">/api/v1/auth/session • Status: 200 OK • Response Time: 34ms</text>
+
+    <rect x="0" y="120" width="1080" height="100" rx="10" fill="#121724" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="24" y="155" width="70" height="30" rx="4" fill="#3B82F6"/>
+    <text x="38" y="175" font-family="monospace" font-size="13" font-weight="700" fill="#FFFFFF">POST</text>
+    <text x="110" y="175" font-family="monospace" font-size="14" fill="#FFFFFF">/api/v1/orders/create • Status: 201 Created • Response Time: 112ms</text>
+
+    <rect x="0" y="240" width="1080" height="100" rx="10" fill="#121724" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="24" y="275" width="70" height="30" rx="4" fill="#F59E0B"/>
+    <text x="42" y="295" font-family="monospace" font-size="13" font-weight="700" fill="#0A0D14">PUT</text>
+    <text x="110" y="295" font-family="monospace" font-size="14" fill="#FFFFFF">/api/v1/users/profile • Status: 200 OK • Token Auth Validated</text>
+  </g>
+
+    </g>
+  </svg>

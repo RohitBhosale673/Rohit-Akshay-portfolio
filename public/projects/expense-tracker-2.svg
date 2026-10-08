@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0F1218"/>
+        <stop offset="100%" stop-color="#08090C"/>
+      </linearGradient>
+      <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#10B981"/>
+        <stop offset="100%" stop-color="#6366F1"/>
+      </linearGradient>
+      <pattern id="dotPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+        <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
+      </pattern>
+    </defs>
+    
+    <!-- Outer window border and container -->
+    <rect width="1200" height="750" rx="16" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <rect width="1200" height="750" rx="16" fill="url(#dotPattern)"/>
+    
+    <!-- Browser Top Bar -->
+    <rect x="0" y="0" width="1200" height="56" rx="16" fill="#141822" fill-opacity="0.9"/>
+    <rect x="0" y="44" width="1200" height="12" fill="#141822"/>
+    <line x1="0" y1="56" x2="1200" y2="56" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Window controls -->
+    <circle cx="28" cy="28" r="6" fill="#EF4444" fill-opacity="0.8"/>
+    <circle cx="48" cy="28" r="6" fill="#F59E0B" fill-opacity="0.8"/>
+    <circle cx="68" cy="28" r="6" fill="#10B981" fill-opacity="0.8"/>
+    
+    <!-- URL Address pill -->
+    <rect x="180" y="14" width="840" height="28" rx="6" fill="#0B0D12" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <circle cx="202" cy="28" r="4" fill="#10B981"/>
+    <text x="218" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8" font-weight="500">https://homeexpencetracker.vercel.app/dashboard</text>
+    
+    <!-- Action icons placeholder -->
+    <rect x="1040" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1075" y="18" width="20" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="1110" y="18" width="60" height="20" rx="4" fill="#10B981" fill-opacity="0.2"/>
+    <text x="1122" y="32" font-family="system-ui, sans-serif" font-size="10" fill="#10B981" font-weight="700">LIVE</text>
+    
+    <!-- Main Content Area -->
+    <g transform="translate(0, 56)">
+      
+  <rect width="1200" height="694" fill="#090C12"/>
+  <g transform="translate(60, 36)">
+    <text x="0" y="30" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Household Expense Dashboard</text>
+    <text x="0" y="56" font-family="system-ui, sans-serif" font-size="13" fill="#64748B">Real-time budget management, category spending, and monthly financial balance.</text>
+  </g>
+  <!-- Balance Metrics -->
+  <g transform="translate(60, 110)">
+    <rect x="0" y="0" width="340" height="110" rx="12" fill="#121724" stroke="rgba(255,255,255,0.06)"/>
+    <text x="24" y="36" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">TOTAL MONTHLY INCOME</text>
+    <text x="24" y="78" font-family="system-ui, sans-serif" font-size="30" font-weight="700" fill="#10B981">₹85,000</text>
+
+    <rect x="370" y="0" width="340" height="110" rx="12" fill="#121724" stroke="rgba(255,255,255,0.06)"/>
+    <text x="394" y="36" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">TOTAL EXPENSES (OCT)</text>
+    <text x="394" y="78" font-family="system-ui, sans-serif" font-size="30" font-weight="700" fill="#EF4444">₹32,450</text>
+
+    <rect x="740" y="0" width="340" height="110" rx="12" fill="#121724" stroke="rgba(255,255,255,0.06)"/>
+    <text x="764" y="36" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">NET REMAINING BALANCE</text>
+    <text x="764" y="78" font-family="system-ui, sans-serif" font-size="30" font-weight="700" fill="#3B82F6">₹52,550</text>
+  </g>
+  <!-- Category chart & transactions -->
+  <g transform="translate(60, 250)">
+    <rect x="0" y="0" width="600" height="400" rx="14" fill="#101520" stroke="rgba(255,255,255,0.06)"/>
+    <text x="24" y="36" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Category Spending Overview</text>
+    <rect x="24" y="70" width="550" height="34" rx="6" fill="#161D2C"/>
+    <text x="40" y="92" font-family="system-ui, sans-serif" font-size="13" fill="#FFFFFF">Groceries &amp; Provisions</text>
+    <text x="480" y="92" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F59E0B">₹12,200</text>
+
+    <rect x="24" y="120" width="550" height="34" rx="6" fill="#161D2C"/>
+    <text x="40" y="142" font-family="system-ui, sans-serif" font-size="13" fill="#FFFFFF">Rent &amp; Housing</text>
+    <text x="480" y="142" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#3B82F6">₹14,000</text>
+
+    <rect x="24" y="170" width="550" height="34" rx="6" fill="#161D2C"/>
+    <text x="40" y="192" font-family="system-ui, sans-serif" font-size="13" fill="#FFFFFF">Electricity &amp; Utilities</text>
+    <text x="480" y="192" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#10B981">₹3,450</text>
+
+    <rect x="24" y="220" width="550" height="34" rx="6" fill="#161D2C"/>
+    <text x="40" y="242" font-family="system-ui, sans-serif" font-size="13" fill="#FFFFFF">Travel &amp; Fuel</text>
+    <text x="480" y="242" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#EC4899">₹2,800</text>
+
+    <!-- Transaction Table -->
+    <rect x="630" y="0" width="450" height="400" rx="14" fill="#101520" stroke="rgba(255,255,255,0.06)"/>
+    <text x="654" y="36" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Recent Logs</text>
+    <text x="654" y="80" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">Oct 08 - Supermarket • ₹2,100</text>
+    <text x="654" y="120" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">Oct 06 - Fuel Station • ₹800</text>
+    <text x="654" y="160" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">Oct 04 - Fiber Internet • ₹799</text>
+  </g>
+
+    </g>
+  </svg>
