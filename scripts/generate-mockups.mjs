@@ -505,6 +505,120 @@ const darbar1 = createBrowserChrome('Darbar Seva Flow', 'https://darbar-seva-flo
 
 const darbar2 = darbar1;
 
+// 11. RBAS Estates & Residences (Luxury 3D Real Estate Platform)
+const rbas1 = createBrowserChrome('RBAS — Estates & Residences', 'https://reaestate.vercel.app', `
+  <rect width="1200" height="694" fill="#0A0D14"/>
+  <!-- Nav -->
+  <g transform="translate(60, 24)">
+    <rect width="32" height="32" rx="6" fill="#C5A059"/>
+    <text x="44" y="22" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">RBAS</text>
+    <text x="100" y="21" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Mumbai · Goa · Alibaug</text>
+    
+    <text x="700" y="21" font-family="system-ui, sans-serif" font-size="12" fill="#CBD5E1">Collection</text>
+    <text x="780" y="21" font-family="system-ui, sans-serif" font-size="12" fill="#CBD5E1">3D Walkthrough</text>
+    <text x="890" y="21" font-family="system-ui, sans-serif" font-size="12" fill="#CBD5E1">The Practice</text>
+    <rect x="990" y="0" width="90" height="32" rx="6" fill="#C5A059" fill-opacity="0.2" stroke="#C5A059" stroke-width="1"/>
+    <text x="1006" y="21" font-family="system-ui, sans-serif" font-size="11" fill="#C5A059" font-weight="600">Viewing</text>
+  </g>
+  <line x1="60" y1="74" x2="1140" y2="74" stroke="rgba(255,255,255,0.08)"/>
+
+  <!-- Hero Content -->
+  <g transform="translate(60, 110)">
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#C5A059" letter-spacing="2">EST. 2009 — MUMBAI · GOA · ALIBAUG</text>
+    <text x="0" y="70" font-family="Georgia, serif" font-size="44" font-weight="600" fill="#FFFFFF">Considered homes</text>
+    <text x="0" y="120" font-family="Georgia, serif" font-size="44" font-weight="600" font-style="italic" fill="#E2E8F0">for considered lives.</text>
+    
+    <text x="0" y="160" font-family="system-ui, sans-serif" font-size="14" fill="#94A3B8">A curated portfolio of architect-designed residences rendered in full 3D.</text>
+
+    <!-- Search Pill -->
+    <rect x="0" y="200" width="560" height="64" rx="12" fill="#131722" stroke="rgba(255,255,255,0.1)"/>
+    <text x="24" y="228" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">LOCATION</text>
+    <text x="24" y="248" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">North Goa / Worli</text>
+    
+    <line x1="180" y1="214" x2="180" y2="250" stroke="rgba(255,255,255,0.08)"/>
+    <text x="200" y="228" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">RESIDENCE</text>
+    <text x="200" y="248" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Luxury Villa</text>
+    
+    <line x1="360" y1="214" x2="360" y2="250" stroke="rgba(255,255,255,0.08)"/>
+    <text x="380" y="228" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">BUDGET</text>
+    <text x="380" y="248" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#C5A059">₹12 Cr +</text>
+
+    <!-- Metrics -->
+    <g transform="translate(0, 300)">
+      <text x="0" y="30" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">146</text>
+      <text x="0" y="48" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Residences on file</text>
+
+      <text x="140" y="30" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#10B981">0%</text>
+      <text x="140" y="48" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Buyer brokerage</text>
+
+      <text x="280" y="30" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#C5A059">19 Days</text>
+      <text x="280" y="48" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">To exchange</text>
+    </g>
+  </g>
+
+  <!-- Featured Villa Card on Right -->
+  <g transform="translate(660, 110)">
+    <rect width="420" height="390" rx="16" fill="#121624" stroke="rgba(255,255,255,0.12)"/>
+    <!-- Image placeholder -->
+    <rect x="16" y="16" width="388" height="230" rx="10" fill="#1C2333"/>
+    <rect x="30" y="30" width="70" height="24" rx="4" fill="#C5A059"/>
+    <text x="42" y="46" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#0A0D14">3D TOUR</text>
+    
+    <text x="340" y="46" font-family="system-ui, sans-serif" font-size="11" fill="#FFFFFF">01 / 146</text>
+
+    <text x="24" y="280" font-family="Georgia, serif" font-size="22" font-weight="600" fill="#FFFFFF">Casa Marena</text>
+    <text x="24" y="302" font-family="system-ui, sans-serif" font-size="12" fill="#94A3B8">Assagao, North Goa · 5 bed · 6 bath · 7,400 sqft</text>
+
+    <line x1="24" y1="324" x2="396" y2="324" stroke="rgba(255,255,255,0.08)"/>
+    <text x="24" y="356" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#C5A059">₹14.2 Cr</text>
+    <text x="310" y="354" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">View residence →</text>
+  </g>
+`, '#C5A059');
+
+const rbas2 = createBrowserChrome('RBAS 3D Walkthrough & Collection', 'https://reaestate.vercel.app/#walkthrough', `
+  <rect width="1200" height="694" fill="#0A0D14"/>
+  <g transform="translate(60, 40)">
+    <text x="0" y="24" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#C5A059" letter-spacing="2">02 — THREE DIMENSIONS</text>
+    <text x="0" y="70" font-family="Georgia, serif" font-size="36" font-weight="600" fill="#FFFFFF">Walk the rooms before you arrive.</text>
+    <text x="0" y="105" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">Each residence is laser-measured and rebuilt as a navigable 3D model with daylight simulation.</text>
+  </g>
+
+  <!-- 3D Stage Simulation -->
+  <g transform="translate(60, 160)">
+    <rect width="1080" height="460" rx="16" fill="#131826" stroke="rgba(255,255,255,0.1)"/>
+    
+    <!-- Left Spec List -->
+    <g transform="translate(40, 50)">
+      <circle cx="16" cy="16" r="16" fill="#C5A059" fill-opacity="0.2"/>
+      <text x="12" y="21" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#C5A059">i</text>
+      <text x="44" y="15" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Navigable Models</text>
+      <text x="44" y="35" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Room-by-room geometry you can move through freely.</text>
+
+      <circle cx="16" cy="96" r="16" fill="#C5A059" fill-opacity="0.2"/>
+      <text x="10" y="101" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#C5A059">ii</text>
+      <text x="44" y="95" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Hour &amp; Season Sunlight Study</text>
+      <text x="44" y="115" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Simulated daylight for 8am in July or 5pm in December.</text>
+
+      <circle cx="16" cy="176" r="16" fill="#C5A059" fill-opacity="0.2"/>
+      <text x="8" y="181" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#C5A059">iii</text>
+      <text x="44" y="175" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">In-Place Dimension Measurement</text>
+      <text x="44" y="195" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Tap any wall or ceiling to read architectural measurements.</text>
+
+      <rect x="0" y="240" width="220" height="42" rx="8" fill="#C5A059"/>
+      <text x="34" y="266" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0A0D14">Request 3D Walkthrough →</text>
+    </g>
+
+    <!-- Right 3D Perspective Canvas Simulation -->
+    <g transform="translate(480, 40)">
+      <rect width="550" height="370" rx="12" fill="#0E121E" stroke="rgba(255,255,255,0.08)"/>
+      <rect x="20" y="20" width="510" height="300" rx="8" fill="#1A2030"/>
+      <text x="40" y="290" font-family="system-ui, sans-serif" font-size="12" fill="#FFFFFF">Principal Suite · Casa Marena</text>
+      <text x="420" y="290" font-family="system-ui, sans-serif" font-size="11" fill="#C5A059">INTERACTIVE 3D</text>
+      <text x="200" y="348" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">Move cursor to tilt and inspect room dimensions</text>
+    </g>
+  </g>
+`, '#C5A059');
+
 const mockups = [
   { name: 'jagdamba-hotel.svg', content: jagdamba1 },
   { name: 'jagdamba-hotel-2.svg', content: jagdamba2 },
@@ -526,6 +640,8 @@ const mockups = [
   { name: 'fertiliser-2.svg', content: fertiliser2 },
   { name: 'darbar-seva.svg', content: darbar1 },
   { name: 'darbar-seva-2.svg', content: darbar2 },
+  { name: 'rbas-real-estate.svg', content: rbas1 },
+  { name: 'rbas-real-estate-2.svg', content: rbas2 },
 ];
 
 for (const m of mockups) {

@@ -14,6 +14,7 @@ const UNSPLASH_IMAGES = {
   code: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
   agritech: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1200&q=80",
   workflow: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&q=80",
+  realEstate: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
 };
 
 const WORKS: WorksWheelItem[] = [
@@ -66,6 +67,11 @@ const WORKS: WorksWheelItem[] = [
     title: "Darbar Seva Flow",
     image: UNSPLASH_IMAGES.workflow,
     href: "/projects/darbar-seva-flow",
+  },
+  {
+    title: "RBAS Estates & Residences",
+    image: UNSPLASH_IMAGES.realEstate,
+    href: "/projects/rbas-estates-residences",
   },
 ];
 

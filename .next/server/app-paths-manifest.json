@@ -1,9 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js",
-  "/robots.txt/route": "app/robots.txt/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/factory/page": "app/factory/page.js",
-  "/projects/[slug]/page": "app/projects/[slug]/page.js",
-  "/demo/page": "app/demo/page.js"
+  "/page": "app/page.js"
 }

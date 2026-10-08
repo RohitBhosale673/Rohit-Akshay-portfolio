@@ -321,4 +321,34 @@ export const projectsData: Project[] = [
     status: 'Live Application',
     year: '2024',
   },
+  {
+    id: '11',
+    slug: 'rbas-estates-residences',
+    title: 'RBAS — Estates & Residences',
+    category: 'Real Estate / 3D Luxury Architectural Platform',
+    filterCategories: ['ALL', 'WEBSITES', 'WEB APPS', 'BUSINESS'],
+    description:
+      'A curated portfolio of architect-designed residences across Mumbai, Goa, and Alibaug featuring interactive 3D room walkthroughs, lighting studies, and private viewing bookings.',
+    longDescription:
+      'RBAS Estates & Residences is a luxury digital real estate platform engineered for showcasing curated architectural properties. Featuring interactive property collections with category filters (Apartments, Villas, Penthouses), interactive 3D room walkthrough stages, detailed measured floor plans, hour and season sunlight studies, private viewing appointment booking, and responsive search across prime locations (Worli, Bandra West, Alibaug, North Goa).',
+    thumbnail: '/projects/rbas-real-estate.svg',
+    gallery: [
+      '/projects/rbas-real-estate.svg',
+      '/projects/rbas-real-estate-2.svg',
+    ],
+    technologies: ['Vanilla JS & HTML5', 'Interactive 3D Stages', 'CSS Grid & Flexbox', 'Vercel Deployment', 'Responsive Design', 'Modal Engine'],
+    features: [
+      'Curated property collection with category filtering (Apartments, Villas, Penthouses)',
+      'Interactive 3D Walkthrough stage with perspective room tilting & lighting studies',
+      'Comprehensive property detail modal with multi-photo gallery and verified specifications',
+      'Private viewing booking form with date/time scheduling and verification',
+      'Real-time location, residence type, and budget search system',
+      'Editorial design with fluid typography, luxury brand aesthetic, and micro-interactions'
+    ],
+    role: 'Frontend Engineering & Interactive Architecture',
+    liveUrl: 'https://reaestate.vercel.app/',
+    featured: true,
+    status: 'Live in Production',
+    year: '2024',
+  },
 ];

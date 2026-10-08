@@ -212,7 +212,7 @@ export default function Hero() {
                   {/* 3 Metric Badges */}
                   <div className="grid grid-cols-3 gap-3 mb-6">
                     <div className="p-3 rounded-xl bg-studio-900/70 border border-white/10 text-center">
-                      <span className="font-display font-extrabold text-lg sm:text-xl text-white block">10</span>
+                      <span className="font-display font-extrabold text-lg sm:text-xl text-white block">11</span>
                       <span className="font-mono text-[10px] text-studio-400 uppercase">Live Projects</span>
                     </div>
                     <div className="p-3 rounded-xl bg-studio-900/70 border border-white/10 text-center">
