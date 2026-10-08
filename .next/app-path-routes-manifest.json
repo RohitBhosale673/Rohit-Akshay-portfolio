@@ -1,1 +1,1 @@
-{"/_not-found/page":"/_not-found","/page":"/","/robots.txt/route":"/robots.txt","/sitemap.xml/route":"/sitemap.xml","/factory/page":"/factory","/demo/page":"/demo","/projects/[slug]/page":"/projects/[slug]"}
+{"/page":"/","/sitemap.xml/route":"/sitemap.xml","/robots.txt/route":"/robots.txt","/_not-found/page":"/_not-found","/factory/page":"/factory","/projects/[slug]/page":"/projects/[slug]","/demo/page":"/demo"}
